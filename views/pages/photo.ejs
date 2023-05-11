@@ -1,0 +1,18 @@
+<!-- photo.ejs -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NASA Image of the Day</title>
+  </head>
+  <style>
+    img {
+      width: 50%;
+      height: 50%;
+    }
+  </style>
+  <body>
+    <h1>NASA Image of the Day</h1>
+    <img src="<%= imageUrl %>" alt="NASA Image of the Day" />
+    <p><%= explanation %></p>
+  </body>
+</html>
